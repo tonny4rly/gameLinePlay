@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     jeu_2_ligne
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _feuille_initiale, symObjAddr: 0x0, symBinAddr: 0x1000037B8, symSize: 0x94 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _feuille_initiale, symObjAddr: 0x0, symBinAddr: 0x1000037B8, symSize: 0x94 }
+  - { offsetInCU: 0x9D, offset: 0x9D, size: 0x8, addend: 0x0, symName: _feuille, symObjAddr: 0x94, symBinAddr: 0x10000384C, symSize: 0xC8 }
+  - { offsetInCU: 0xF9, offset: 0xF9, size: 0x8, addend: 0x0, symName: _victoire, symObjAddr: 0x15C, symBinAddr: 0x100003914, symSize: 0x418 }
+  - { offsetInCU: 0x2F4, offset: 0x2F4, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x574, symBinAddr: 0x100003D2C, symSize: 0x1D4 }
+...
